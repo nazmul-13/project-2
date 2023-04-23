@@ -2,37 +2,221 @@ body{
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
 }
 header{
-    width: 100px;
-    height: 50px;
-    position: relative;
+    width: 100%;
+height: 60px;
+position: fixed;
+background-color: gainsboro;
 }
- div{
-    float: left; 
-    justify-content: space-between;
-    align-items: center;
-}
+div{
+    float: left;
+    margin-right: 210px;
+    margin-top: 6px;
+  }
+
 .logo{
-    
+    margin-left: 187px;
+    margin-top: 17px;
+}
+.logo img{
+    height: 36px;
 }
 .nav{
-    position:absolute;
-    top: 0;
-    right: 0;
+  position: absolute; 
+  right: 0;  
 
 }
 .nav ul{
-   list-style: none;
+
 }
 .nav ul li{
-    float: left;
-    padding: 10px;
-
+    display: inline;
+    padding: 13px;
 }
 .nav ul li a{
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
 
 }
+.nav ul li a:hover{
+    color: #7f97ff;
+}
 
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 589px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half1, .half2{
+   width: 50%;
+}
+.half1{
+    margin-left: 200px;
+    margin-bottom: 130px;
+
+}
+.half2{
+    
+
+}
+.half2 img{
+   max-width: 100%;
+   height: auto;
+   margin-left: -24px;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 41px;
+}
+
+.half1 p{
+    font-size: 13px;
+    color: rgba(78,78,78,.7);
+}
+.half1 button{
+    padding: 12px 25px;
+  background-color: #8393ff;
+  outline: none;
+  color: white;
+  border: 1px solid #8393ff;
+  text-transform: uppercase;
+}
+.half1 button:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s ;
+    outline: none;
+
+}
+.section2{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.left, .right{
+    width: 50%;
+}
+.left{
+
+}
+.left img{
+    margin-left: 180px;
+    height: 363px;
+   
+}
+.right{
+    margin-left: -47px;  
+}
+.right h3{
+
+}
+.right h1{
+    
+}
+.right p{
+    font-size: 13px;
+    color: rgba(78,78,78,.7);
+}
+.right button{
+  padding: 12px 25px;
+  background-color: #8393ff;
+  outline: none;
+  color: white;
+  border: 1px solid #8393ff;
+  text-transform: uppercase;
+}
+.right button:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s ;
+    outline: none;
+
+}
+.section3{
+    width: 100%;
+    height: 760px;
+    margin: auto;
+    text-align: center;
+}
+.one h1{
+    font-size: 39px;
+    margin-left: 426px;
+}
+.one p{
+    width: 605px;
+    margin-left: 406px;
+    margin-top: -15px;
+    color: #1a0d0d7d;
+    font-style: revert;
+}
+.service{
+    margin-left: 194px;
+    margin-top: 46px;
+}
+.service i{
+    font-size: 40px;
+    margin-left: -29px;
+}
+
+
+
+.service h1{
+    width: 200px;
+}
+.ser1 div:hover{
+    background-color:rgb(113, 113, 206) ;
+    color: white;
+}
+.ser1 div:hover i{
+    color: white;
+}
+
+.service p{
+    font-size: 18px;
+    width: 221px;
+    line-height: 24px;
+    word-wrap: 13px;
+    word-spacing: 0px;
+    font-size: normal;
+    font-weight: normal;
+    color: #c4b1b1;
+  
+}
+.ser2 div:hover{
+    background-color:rgb(113, 113, 206) ;
+    color: white;
+}
+.ser{
+    display: flex;
+}
+.ser2{
+    display:flex;
+}
+.ser1 div{
+    
+}
+.section4{
+    width: 100%;
+    height: 106px;
+    background-color: #7575e6;
+    text-align: center;
+    margin-top: -18px;
+    padding: 125px;
+}
+.section4 p{
+    font-size: 21px;
+    color: white;
+  }
+.section4 h1{
+    color: white;
+}
